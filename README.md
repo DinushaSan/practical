@@ -12,3 +12,7 @@ The technologies used:
 Frontend - React, bootstrap
 Backend - Express.js, NodeJs
 
+
+Fronend folder got a submodule of git and now disabled. Please refer newfrontend
+
+
