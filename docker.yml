@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+db:
+image: mongodb
+ports:
+- "5000"
+environment:
+- MONGO_URI=mongodb+srv://dinusha:dinusha123@cluster0.lumz0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+- NODE_ENV = development
+- JWT_SECRET = dinusha123
